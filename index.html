@@ -114,10 +114,10 @@
         <p class="aboutmetext">Please send me an email that includes the student's name (and your name if you are not the student) and the course for which you are seeking tutoring, along with any other information about your tutoring needs.</p>
         <br>
         <form action="mailto:torresen@umich.edu" method="get" enctype="text/plain">
-          Student's name:<br>
-          <input type="text" name="body" placeholder="Student's Name"><br>
-          Your email address:<br>
-          <input type="email" name="email" placeholder="Email address"><br>
+          <label for="studentname">Student's name:</label>
+          <input id="studentname" type="text" name="body" placeholder="Student's Name"><br>
+          <label for="email">Your email address:</label>
+          <input id="email" type="email" name="email" placeholder="Email address"><br>
           <label for="subject">Course/subject:</label>
           <select id="subject" name="subject" required>
             <option disabled selected value> -- select an option -- </option>
