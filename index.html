@@ -111,36 +111,31 @@
   <section class="white-text" id="contact">
       <div class="formcontainer container-fluid">
         <h2 style="text-align: center">Contact AnneMarie today to schedule a free intro session</h2>
+        <p class="aboutmetext">Please send me an email that includes the student's name (and your name if you are not the student) and the course for which you are seeking tutoring, along with any other information about your tutoring needs.</p>
         <br>
-        <form action="form-process.php" method="POST" class="formcarry-form" id="form">
-          <label for="studentname">Student name</label>
-          <input type="text" id="studentname" name="studentname" placeholder="Student's full name" required>
-          <br>
-          <label for="submittername">Submitter name</label>
-          <input type="text" id="submittername" name="submittername" placeholder="Form submitter's name (if different from student)">
-          <br>
-          <label for="email">Submitter email address</label>
-          <input type="email" id="email" name="email" placeholder="Email address" required>
-          <br>
-          <label for="subject">Course/subject</label>
+        <form action="mailto:torresen@umich.edu" method="get" enctype="text/plain">
+          Student's name:<br>
+          <input type="text" name="body" placeholder="Student's Name"><br>
+          Your email address:<br>
+          <input type="email" name="email" placeholder="Email address"><br>
+          <label for="subject">Course/subject:</label>
           <select id="subject" name="subject" required>
-            <option value="apcalculusab">AP Calculus AB</option>
-            <option value="apcalculusbc">AP Calculus BC</option>
-            <option value="apprecalculus">AP PreCalculus</option>
-            <option value="precalculus">PreCalculus</option>
-            <option value="algebra1">Algebra 1</option>
-            <option value="algebra1">Algebra 2</option>
-            <option value="algebra2">Linear Algebra</option>
-            <option value="actprep">ACT prep</option>
-            <option value="actprep">SAT prep</option>
-            <option value="actprep">Other</option>
+            <option disabled selected value> -- select an option -- </option>
+            <option value="Tutor request: AP Calculus AB">AP Calculus AB</option>
+            <option value="Tutor request: AP Calculus BC">AP Calculus BC</option>
+            <option value="Tutor request: AP PreCalculus">AP PreCalculus</option>
+            <option value="Tutor request: PreCalculus">PreCalculus</option>
+            <option value="Tutor request: Algebra 1">Algebra 1</option>
+            <option value="Tutor request: Algebra 2">Algebra 2</option>
+            <option value="Tutor request: Linear Algebra">Linear Algebra</option>
+            <option value="Tutor request: ACT Prep">ACT prep</option>
+            <option value="Tutor request: SAT Prep">SAT prep</option>
+            <option value="Math tutor request">Other</option>
           </select>
-          <br>
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Please share any information about your tutoring needs..." style="height:200px"></textarea>
-          <br>
           <input type="submit" value="Submit">
         </form>
+        <br>
+        <p class="aboutmetext">I will respond as soon as possible to set up our first session :)</p>
       </div>
     </section>
 
