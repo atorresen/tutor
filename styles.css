@@ -76,12 +76,14 @@ p {
 }
 
 
-/* Features Section */
-#features {
-  position: relative;
-  z-index: 1;
+.contact{
+  text-align: center;
+  color: white;
 }
-
+.contactbutton {
+  padding: 10%;
+  font-weight: 500;
+}
 
 #about {
   background-color: cornflowerblue;
@@ -146,7 +148,7 @@ input[type=email], select, textarea {
 
 
 /* Style the submit button with a specific background color etc */
-button, input[type=submit] {
+.contactbutton, button {
   background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
@@ -159,7 +161,7 @@ button {
   margin: 16px;
 }
 
-input[type=submit]:hover {
+.contactbutton:hover {
   background-color: cornflowerblue;
 }
 
@@ -177,11 +179,10 @@ a:hover {
 }
 
 /* Add a background color and some padding around the form */
-.formcontainer {
+.contactcontainer {
   border-radius: 5px;
   background-color: teal;
   padding: 5% 10%;
-  text-align: left;
 }
 
 .persevere {
