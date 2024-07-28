@@ -96,7 +96,8 @@ p {
 }
 
 .headshot-img {
-  max-width: 90%;
+  max-width: 80%;
+  margin: -10px 0 2% 5%;
 }
 
 
