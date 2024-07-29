@@ -127,7 +127,7 @@ button {
   margin: 16px;
 }
 
-.contactbutton:hover {
+.contactbutton:hover, .finalcontactbutton:hover {
   background-color: cornflowerblue;
 }
 
