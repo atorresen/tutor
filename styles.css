@@ -14,13 +14,13 @@ p {
 
 /* Headings */
 .title-heading {
-  font-size: 3.25rem;
+  font-size: 2.8rem;
   line-height: 1.5;
   text-align: left;
 }
 
 .subtitle-heading {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -30,6 +30,7 @@ p {
   font-weight: 600;
   text-align: left;
 }
+
 
 /* Sections */
 .color-text {
@@ -47,7 +48,7 @@ p {
 
 /* Navigation Bar */
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 3rem;
 }
 
 .nav-item {
@@ -68,6 +69,23 @@ p {
   width: 80%;
   right: 20%;
   z-index: 1;
+}
+
+@media (max-width: 1028px;) {
+  .title-image {
+    position: static;
+    z-index: 1;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .navbar {padding: 0;}
+
+  .title-heading {font-size: 9vw;}
+  .subtitle-heading {font-size: 6vw;}
+  .subjects {font-size: 4vw;}
 }
 
 
@@ -92,6 +110,7 @@ p {
 }
 .headshot-img {
   max-width: 80%;
+  min-width: 80px;
   margin: -10px 0 2% 5%;
 }
 
