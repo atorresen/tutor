@@ -76,13 +76,10 @@ p {
     position: static;
     z-index: 1;
   }
+}
 
-  #title {
-    text-align: center;
-  }
-
-  .navbar {padding: 0;}
-
+@media (max-width: 450px) {
+  .navbar {padding: 0 0 8px;}
   .title-heading {font-size: 9vw;}
   .subtitle-heading {font-size: 6vw;}
   .subjects {font-size: 4vw;}
