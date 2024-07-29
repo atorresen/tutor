@@ -58,11 +58,6 @@ p {
   font-size: 1.2rem;
 }
 
-#logo {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
 
 /* Title */
 #title.container-fluid {
@@ -85,6 +80,7 @@ p {
   font-weight: 500;
 }
 
+
 #about {
   background-color: cornflowerblue;
   color: white;
@@ -94,23 +90,18 @@ p {
   color: white;
   font-weight: 500;
 }
-
 .headshot-img {
   max-width: 80%;
   margin: -10px 0 2% 5%;
 }
 
 
-
-/* Pricing Section */
 .pricing {
   padding: 3% 2%;
 }
-
 .card {
   margin-top: 10px;
 }
-
 @media (max-width: 1028px;) {
   .title-image {
     position: static;
@@ -123,32 +114,6 @@ p {
 }
 
 
-/********* form *********/
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-input[type=email], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-
-/* Style the submit button with a specific background color etc */
 .contactbutton, button {
   background-color: #04AA6D;
   color: white;
@@ -179,12 +144,6 @@ a:hover {
   color: white;
 }
 
-/* Add a background color and some padding around the form */
-.contactcontainer {
-  border-radius: 5px;
-  background-color: teal;
-  padding: 5% 10%;
-}
 
 .persevere {
   width: 60%;
